@@ -866,13 +866,13 @@ class MisReportInstance(models.Model):
 
         if account_id:
             account = self.env[self.report_id.account_model].browse(account_id)
-            return "{kpi} - {account} - {period}".format(
+            return u"{kpi} - {account} - {period}".format(
                 kpi=kpi.description,
                 account=account.display_name,
                 period=period.display_name,
             )
         else:
-            return "{kpi} - {period}".format(
+            return u"{kpi} - {period}".format(
                 kpi=kpi.description,
                 period=period.display_name,
             )

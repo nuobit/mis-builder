@@ -24,3 +24,4 @@
 * `CorporateHub <https://corporatehub.eu/>`__
 
   * Alexey Pelykh <alexey.pelykh@corphub.eu>
+* Eric Antones <eantones@nuobit.com>
